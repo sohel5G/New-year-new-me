@@ -1,9 +1,163 @@
-*{
+/* General Style  */
+* {
     margin: 0px;
+    font-family: sans-serif;
 }
-.container{
+
+.container {
     max-width: 1150px;
     margin: auto;
 }
 
+.title {
+    font-size: 43px;
+    line-height: 53px;
+}
+
+.pera {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 20px 0px;
+}
+
+.btn-primary {
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+/* header area  */
+
+header .container {
+    height: 600px;
+    background-image: url('../img/banner/banner3.png');
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-around;
+}
+
+header .banner-content {
+    width: 450px;
+    color: #ffffff;
+}
+
+
+/* Failure section  */
+
+.failure .container {
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 100px 0px;
+    justify-content: space-evenly;
+}
+
+.failure .container .img img {
+    width: 430px;
+}
+
+.failure .container .text p {
+    width: 400px;
+}
+
+.failure .container .text i {
+    font-size: 15px;
+    color: #16D887;
+    margin-right: 5px;
+}
+
+.failure .container .text ul li {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/* Plan Section  */
+
+.plan {
+    text-align: center;
+    padding: 50px 0px 0px;
+}
+
+.plan .lang {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0px 0px;
+}
+
+.plan .lang .column {
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px rgb(235, 235, 235); */
+}
+
+.plan .lang .column img {
+    width: 70px;
+}
+
+.plan .lang .column p {
+    color: #737272;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+
+
+/* call section  */
+
+.cell .container {}
+
+.call .banner {
+    background-image: url('../img/watch.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.call .banner div {
+    background-image: url('../img/gradient1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 150px 0px;
+    color: #ffffff;
+}
+
+.call .banner div h1,
+.call .banner div button {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* Footer Section  */
+
+footer {
+    background-color: #151414;
+    color: #ffffff;
+    padding: 70px 0px;
+}
+
+.footer-coontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-coontent .social {
+    width: 400px;
+}
+
+.footer-coontent .subscribe {
+    width: 400px;
+}
 
